@@ -1,0 +1,34 @@
+[
+    {
+        "id": "r1",
+        "name": "Ocean Pearl",
+        "address": "Udupi, Karnataka",
+        "cuisine": "Indian Veg",
+        "website": "https://www.oceanpearl.in",
+        "description": "Great food."
+    },
+    {
+        "id": "r2",
+        "name": "Appetite Bites",
+        "address": "Textstreet 5, City",
+        "cuisine": "French",
+        "website": "https://www.google.com",
+        "description": "Awesome!"
+    },
+    {
+        "id": "r3",
+        "name": "Yummy Bites",
+        "address": "Dallas",
+        "cuisine": "Mexican",
+        "website": "https://www.google.com",
+        "description": "Great!"
+    },
+    {
+        "name": "Teas Special",
+        "address": "Textstreet 5, City",
+        "cuisine": "Chineese",
+        "website": "https://www.google.com",
+        "description": "Great",
+        "id": "3b5f550d-522c-4ce0-86d0-a887192f9b07"
+    }
+]

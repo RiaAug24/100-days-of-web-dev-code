@@ -1,0 +1,151 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+  width: fit-content;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+
+header ul {
+  display: flex;
+}
+
+header li {
+  margin: 20px;
+}
+
+.nav-content {
+  color: rgb(252, 225, 6);
+  font-size: 20px;
+  padding: 8px;
+  text-shadow: 1px 2px 2px rgb(25, 25, 25);
+}
+.nav-content:hover {
+  text-decoration: underline;
+  text-shadow: none;
+  text-decoration-color: rgb(252, 193, 84);
+}
+
+.menu-btn {
+  width: 3rem;
+  height: 3.2rem;
+  display: none;
+  padding: 1.2rem;
+  margin: 24px 10px;
+}
+
+.menu-btn span {
+  background-color: rgb(252, 193, 84);
+  width: 100%;
+  height: 2px;
+}
+
+#side-drawer {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: linear-gradient(0deg, rgb(46, 49, 51), rgb(39, 46, 48));
+}
+#side-drawer:target {
+  display: block;
+}
+#side-drawer .menu-btn {
+      width: 3rem;
+}
+#side-drawer .nav-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3.2rem 1.3rem;
+}
+#side-drawer a {
+  font-size: 1.5rem;
+}
+.side-bar-header {
+  justify-content: right;
+  background: none;
+}
+
+#page-logo a {
+  padding: 10px;
+  position: relative;
+  font-family: "Oleo Script", sans-serif;
+  color: rgb(238, 204, 34);
+  font-size: 3rem;
+  text-shadow: 1px 2px 1px rgb(25, 25, 25);
+  text-transform: uppercase;
+}
+
+footer {
+  background: linear-gradient(75deg, rgb(24, 24, 24), rgb(36, 36, 36));
+  margin: 0;
+  width: 100vw;
+  padding: auto;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  padding: 36px 0;
+}
+
+footer li {
+  color: rgb(245, 246, 245);
+  width: 80px;
+  height: 80px;
+  margin: 0 50px;
+}
+
+footer img {
+  width: 100%;
+  height: 100%;
+}
+
+.end-quote {
+  text-align: center;
+  padding: 6px;
+  margin: auto;
+  color: rgb(245, 246, 245);
+}
+
+.end-quote p {
+  margin: 2px;
+}
+
+@media (max-width: 868px) {
+    #page-logo {
+        margin: 0;
+    }
+   
+  .nav-content {
+    display: none;
+  }
+
+  .menu-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}

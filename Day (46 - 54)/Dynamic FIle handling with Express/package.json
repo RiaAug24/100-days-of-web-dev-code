@@ -1,0 +1,19 @@
+{
+  "name": "dynamic-file-handling-with-express",
+  "version": "1.0.0",
+  "description": "\"Handling form send data request\"",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Riyaz24",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
+}

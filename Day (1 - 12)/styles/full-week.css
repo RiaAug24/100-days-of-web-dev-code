@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(245, 236, 158);
+  margin: auto;
+}
+
+h1 {
+  color: rgb(78, 13, 5);
+  font-size: 3.75em;
+  margin: 32px 5px;
+  font-family: 'Oswald';
+}
+
+p {
+  font-size: 20px;
+  color: rgb(36, 38, 43);
+  margin-bottom: 24px;
+}
+#heading-para {
+  color: rgb(36, 38, 43);
+  margin-bottom: 36px;
+}
+
+ol {
+  list-style: none;
+  width: 500px;
+  margin: 36px auto 0 auto;
+}
+h2 {
+  color: rgb(88, 48, 22);
+  font-family: 'OSswald', sans-serif;
+}
+li {
+  font-family: 'Open Sans', sans-serif;;
+  background-color: rgb(233, 164, 124);
+  border-radius: 4px;
+  margin: 32px;
+  padding: 16px;
+  box-shadow: 3px 2px 4px rgb(36, 31, 20);
+  list-style: none;
+}
+ 
+.highlighted-goal {
+  background-color: rgb(233, 128, 87);
+}
+a {
+  padding: 12px 48px;
+  background-color: rgb(153, 58, 34);
+  font-size: 1.3em;
+  border-radius: 4px;
+  color: rgb(253, 236, 232);
+}
+
+a:hover{
+  background-color:  rgb(175, 64, 20);
+}
+ /* main p {
+  margin: 12px;
+}
+*/
+.daily-goal {
+  margin: 12px;
+  color: rgb(71, 29, 22);
+}
+
+footer {
+  margin: 24px;
+}
+
+footer > a {
+  background-color: rgb(153, 58, 34);
+}

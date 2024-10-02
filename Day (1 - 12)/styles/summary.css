@@ -1,0 +1,124 @@
+/* font-family: 'Barlow Semi Condensed', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; */
+
+
+
+
+body {
+  background-color: rgb(233, 222, 255);
+  font-family: 'Roboto', sans-serif;
+  margin: 50px;
+}
+
+.header {
+  margin: 32px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.78em;
+  color:rgb(86, 58, 187)
+}
+
+#logo {
+  width: 200px;
+  height: auto;
+}
+
+.main {
+  margin: 48px auto;
+  width: 700px;
+  height: auto;
+  padding: 24px;
+  background-color: rgb(99, 72, 221);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 1px 2px 1px 2px rgb(238, 238, 238);
+}
+
+#info {
+  margin: 12px;
+}
+
+.html_head{
+      font-size: 1.2em;
+}
+
+ p {
+      font-size: 0.95em;
+}
+
+.highlighted {
+  color: rgb(248, 218, 85);
+}
+
+.inner-para {
+  margin: 10px;
+  font-size: 0.95em;
+}
+
+.bottom-para {
+  margin: 10px;
+  font-size: 0.95em;
+}
+
+.css_head{
+  font-size: 1.2em;
+
+}
+
+ul {
+    list-style: none;
+    font-size: 0.95em;
+}
+
+li {
+  list-style: square;
+  border-left: 2px solid;
+  padding: 8px;
+  color: rgb(247, 218, 92);
+}
+ a {
+  text-decoration: none;
+  background-color: blanchedalmond;
+  color: rgb(88, 48, 16);
+  padding: 4px;
+  border-radius: 4px;
+ }
+
+a:hover {
+     background-color: rgb(248, 215, 163);
+     text-decoration: underline;
+     text-underline-position: inherit;
+     text-decoration-color: rgb(48, 47, 40);
+ }
+
+ #return-back {
+  background-color: transparent;
+  color: rgb(159, 82, 236);
+}
+
+#return-back:hover {
+  text-decoration-color: rgb(141, 91, 182);
+}
+
+ .footer {
+        text-align: center;
+        margin: 0px auto;
+ }
+ 
+#button{
+      padding: 12px;
+      background-color: rgb(247, 215, 34);
+      color: rgb(66, 61, 61);
+}
+
+#button:hover {
+  background-color: rgb(240, 199, 19);
+  text-decoration-color: rgb(164, 101, 228);
+  padding: 13px;
+}
+ 

@@ -1,0 +1,127 @@
+header {
+  position: absolute;
+}
+
+
+#discover {
+  height: 800px;
+  background-image: url(/Images/Places/ocean.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#discover-content {
+  width: 56rem;
+  background-color: rgba(51, 47, 46, 0.8);
+  box-shadow: 2px 3px 6px rgb(68, 67, 66);
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  padding: 50px 24px;
+  margin: 0 auto;
+  position: relative;
+  top: 200px;
+}
+
+#discover-content h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+
+#discover-content p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.65rem;
+  font-weight: 300;
+  margin-bottom: 32px;
+}
+
+#discover-content a {
+  background-color: rgb(250, 213, 26);
+  color: rgb(12, 12, 12);
+  font-size: 24px;
+  padding: 15px 25px;
+  box-shadow: 2px 4px 6px rgb(65, 66, 64);
+  border-radius: 6px;
+}
+
+#discover-content a:hover {
+  background-color: rgb(243, 192, 54);
+  padding: 16px 26px;
+}
+
+#highlights {
+  padding: 24px;
+  background: linear-gradient(0deg, rgb(178, 244, 221), rgb(132, 237, 218));
+}
+
+#highlights h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3rem;
+  margin: 24px 0;
+  color: rgb(36, 48, 100);
+}
+
+#destinations {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  justify-content: space-evenly;
+}
+
+.destination {
+  margin: 0 20px;
+  text-transform: uppercase;
+}
+
+strong {
+  color: rgb(36, 139, 47);
+}
+
+.destination img {
+  height: 200px;
+  width: 100%;
+  box-shadow: 2px 4px 8px rgb(65, 66, 64);
+  border-radius: 10px;
+  object-fit: fill;
+}
+
+.destination p {
+  color: rgb(143, 142, 154);
+  font-size: 24px;
+  text-align: center;
+}
+
+@media (max-width: 978px) {
+  #discover-content {
+    width: fit-content;
+  }
+
+  #destinations {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .highlights h2 {
+    font-size: 1.5rem;
+  }
+  .destination img {
+    width: fit-content;
+    object-fit: cover;
+  }
+}
+@media (max-width: 382px) {
+  body {
+    width: fit-content;
+    height: auto;
+  }
+  .destination img {
+    width: 100%;
+    object-fit: cover;
+  }
+}

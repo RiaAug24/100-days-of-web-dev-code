@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+  margin: 50px;
+}
+
+h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  font-size: 2.5em;
+}
+p {
+  font-family: 'Open Sans';
+  text-align: center;
+}
+
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}

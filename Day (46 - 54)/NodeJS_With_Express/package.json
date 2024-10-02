@@ -1,0 +1,17 @@
+{
+  "name": "nodejs_with_express",
+  "version": "1.0.0",
+  "description": "nodejs with express guide",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Riyaz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
+}
